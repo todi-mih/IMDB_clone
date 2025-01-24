@@ -1,0 +1,5 @@
+#!/bin/bash
+
+# Compile the Java program
+javac -cp .:jackson-databind-2.16.1.jar:jackson-core-2.16.1.jar:jackson-annotations-2.16.1.jar:json-simple-1.1.jar  IMDB.java GUI.java Production.java Movie.java Series.java Rating.java Episode.java Actor.java RequestsHolder.java User.java RegularUser.java RequestProcessor.java JsonUpdater.java
+java -cp .:jackson-databind-2.16.1.jar:jackson-core-2.16.1.jar:jackson-annotations-2.16.1.jar:json-simple-1.1.jar IMDB
